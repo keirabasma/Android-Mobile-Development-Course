@@ -1,1 +1,1 @@
-# Android-Mobile-Development-Course
+# Android-Mobile-Development-Workshops
