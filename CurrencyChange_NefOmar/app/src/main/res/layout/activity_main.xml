@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <EditText
+        android:id="@+id/edit_montant"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:hint="Entrez le montant à convertir"
+        android:inputType="numberDecimal" />
+
+    <RadioGroup
+        android:id="@+id/radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="2dp">
+
+        <RadioButton
+            android:id="@+id/radio_eur_to_dzd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="EUR to DZD" />
+
+        <RadioButton
+            android:id="@+id/radio_dzd_to_eur"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DZD to EUR" />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/text_resultat"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="15dp"
+        android:text="Résultat de la conversion : " />
+
+    <Button
+        android:id="@+id/button_convert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:onClick="convertir"
+        android:orientation="vertical"
+        android:text="Convertir" />
+
+
+
+</LinearLayout>
