@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="301dp"
+        android:layout_height="52dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="48dp"
+        android:layout_marginBottom="611dp"
+        android:text="Felicitation  vous avez reussi!"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="158dp"
+        tools:layout_editor_absoluteY="101dp"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="194dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="97dp"
+        android:layout_marginBottom="558dp"
+        android:text="Votre Moyenne est:"
+        android:textSize="20dp"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="83dp"
+        android:layout_height="31dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="169dp"
+        android:layout_marginBottom="488dp"
+        android:text="Moyenne"
+        android:textColor="@color/white"/>
+</RelativeLayout>

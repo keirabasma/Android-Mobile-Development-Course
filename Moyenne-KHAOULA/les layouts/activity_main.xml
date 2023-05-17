@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/myb_background"
+    tools:context=".MainActivity">
+
+
+        <TextView
+            android:layout_width="203dp"
+            android:layout_height="wrap_content"
+            android:text="Calcule de moyenne"
+            android:textColor="@color/white"
+            android:textSize="40dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:textColor="#FFFFFF"
+            android:background="#D84B91B1"
+            android:hint="Valeur 1"
+            android:padding="10dp"
+
+            android:outlineAmbientShadowColor="@color/white"
+            android:textColorHint="@color/white"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:hint="Valeur 2"
+            android:background="#D84B91B1"
+            android:textColor="#FFFFFF"
+            android:padding="10dp"
+
+
+            android:textColorHint="@color/white"
+
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:hint="Valeur 3"
+            android:inputType="number"
+            android:textColor="#FFFFFF"
+            android:padding="10dp"
+            android:textStyle="normal"
+            android:background="#D84B91B1"
+            android:textColorHint="@color/white" />
+
+        <Button
+            android:id="@+id/button_calculer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@color/white"
+            android:text="Calculer" />
+
+</LinearLayout>
+
+
