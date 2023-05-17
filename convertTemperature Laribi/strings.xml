@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Degre_convert</string>
+    <string name="result_format">Result: %.2f</string>
+
+</resources>
