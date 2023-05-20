@@ -1,0 +1,67 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Celcuis to farenheit Converter"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="24dp" />
+
+    <EditText
+        android:id="@+id/dinar_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter farenheight amount"
+        android:inputType="numberDecimal"
+        android:padding="16dp" />
+
+
+    <Button
+        android:id="@+id/convert_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Convert"
+        android:textSize="18sp"
+        android:layout_margin="16dp" />
+    <RadioGroup
+        android:id="@+id/unit_selection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp">
+
+        <RadioButton
+            android:id="@+id/celsius_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Celsius" />
+
+        <RadioButton
+            android:id="@+id/fahrenheit_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fahrenheit"
+            android:checked="true" />
+    </RadioGroup>
+
+
+
+    <TextView
+        android:id="@+id/euro_output"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="0.00 Celceuis"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:padding="16dp" />
+
+</LinearLayout>
